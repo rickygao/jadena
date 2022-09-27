@@ -1,5 +1,7 @@
 # Jadena
 
+[![Test example.py](https://github.com/rickygao/jadena/actions/workflows/test-example.yml/badge.svg?branch=main)](https://github.com/rickygao/jadena/actions/workflows/test-example.yml)
+
 Official implementation of "Can You Spot the Chameleon? Adversarially Camouflaging Images from Co-Salient Object Detection" in CVPR 2022. [arXiv](https://arxiv.org/pdf/2009.09258.pdf)
 
 ## Usage
