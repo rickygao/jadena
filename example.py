@@ -37,8 +37,8 @@ if __name__ == '__main__':
 
     # for "group" variant
     pert, _ = attack(torch.stack(images))
-    TF.to_pil_image(pert[0]).save(image_folder / 'result_group.png')
+    # TF.to_pil_image(pert[0]).save(image_folder / 'result_group.png')
 
     # for "augment" variant
     pert, _ = attack(torch.stack(augment(images[0])))
-    TF.to_pil_image(pert[0]).save(image_folder / 'result_augment.png')
+    # TF.to_pil_image(pert[0]).save(image_folder / 'result_augment.png')
