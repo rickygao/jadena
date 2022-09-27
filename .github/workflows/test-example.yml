@@ -45,3 +45,7 @@ jobs:
         cd example_images/turtles
         test -f result_group.png
         test -f result_augment.png
+    - uses: actions/upload-artifact@v3
+      with:
+        name: result-${{ matrix.os }}
+        path: example_images/turtles/result_*
